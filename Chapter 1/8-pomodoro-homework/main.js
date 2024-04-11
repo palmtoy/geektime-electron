@@ -35,6 +35,7 @@ function createMainWindow() {
     height: 350,
     webPreferences: {
       nodeIntegration: true,
+      contextIsolation: false,
     },
   });
   mainWindow.loadFile('./index.html');

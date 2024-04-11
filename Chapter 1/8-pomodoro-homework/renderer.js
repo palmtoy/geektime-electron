@@ -10,7 +10,7 @@ const progressBar = new ProgressBar.Circle('#timer-container', {
   trailWidth: 1,
   svgStyle: null,
 });
-const workTime = 1 * 60; // 1分钟工作, 自行设定
+const workTime = 30; // 30秒工作
 const restTime = 10; // 10秒休息
 const state = {};
 
